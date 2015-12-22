@@ -1,0 +1,53 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	o-box-sizing:border-box;
+}
+
+header {
+	background: url("https://i.ytimg.com/vi/qOfuTI5165w/maxresdefault.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+
+	
+
+}
+
+.capa2 {
+	min-height: 2000px; 
+	background: url("http://www.freepngimg.com/thumb/fish/8-gold-fish-png-image-thumb.png");
+	background-repeat: no-repeat;
+	background-position-x: 200px; 
+	background-position-y: 300px;
+
+
+}
+
+.capa3 {
+	min-height: 2000px; 
+	background: url("http://fishaowiki.com/wp-content/uploads/2014/03/Rainbow-Darter500px-200x200.png");
+	background-repeat: no-repeat;
+	background-position-x: 200px; 
+	background-position-y: 100px;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+
+}
+
+.capa4 {
+	min-height: 2000px; 
+	background: url("http://th04.deviantart.net/fs70/200H/f/2012/022/b/1/star_power_by_xxx515xxx-d4n9ohs.png");
+	background-repeat: no-repeat;
+	background-position-x: 10px; 
+	background-position-y: 100px;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	
+}

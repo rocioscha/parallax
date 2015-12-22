@@ -1,0 +1,75 @@
+<!doctype html>
+
+
+<html>
+<head>
+	<meta charset="UFT-8">
+	<title>Parallax 1.0</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header>
+		<div class="capa2">
+				<div class="contenedor">
+				</div>
+		</div>
+		<div class="capa3">
+				<div class="contenedor">
+				</div>
+		</div>
+		<div class="capa4">
+				<div class="contenedor">
+				</div>
+		</div>
+	</header>
+
+
+</body>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<script type="text/javascript">
+		$(document).on("ready",function(){
+					
+			$(window).scroll(function(){
+				var barra=$(window).scrollTop();
+				$(".capa2").css({
+					"background-position-x": 200+barra* -0.3 +"px",
+					"background-position-y": 300+barra +"px",
+
+
+				})
+
+				$("header").css({
+					"background-position-y":barra* -0.01 + "px",
+
+				})
+
+				$(".capa3").css({
+					"background-position-x": 200+barra* 0.10 + "px",
+					"background-position-y": 100+barra + "px",
+
+				})
+
+				$(".capa4").css({
+					"background-position-x": 10+barra* 0.10 + "px",
+					"background-position-y": 100+barra + "px",
+
+				})
+
+				
+
+				
+			})
+				
+
+	})
+
+</script>
+
+</html>	
+
+
+
+	
